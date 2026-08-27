@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minha primeira página</title>
+</head>
+
+<body>
+    <h1>Olá, eu sou o Matheus</h1>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#gostos">O que eu gosto</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#dados">Dados</a></li>
+        </ul>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Estudo Engenharia de Software e estou aprendendo HTML.</p <h2>Onde eu estudo</h2>
+        <p><a href="https://newtonpaiva.br">
+                Centro Universitário Newton Paiva</a></p>
+
+        <img src="foto.jpg" alt="Foto do campus" width="400">
+    </section>
+    <section id="gostos">
+        <h2>O que eu gosto?</h2>
+
+        <p>Clube Atletico Mineiro, videogames e luta.</p>
+
+        <h3>Minhas três músicas favoritas</h3>
+        <ol>
+            <li>Homem na Estrada</li>
+            <li>Almas</li>
+            <li>Posso mudar meu destino</li>
+        </ol>
+    </section>
+    <section id="dados">
+        <h2>Meus horários</h2>
+        <table>
+            <caption>Aulas do semestre</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Disciplina</th>
+                    <th scope="col">Sala</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="col">Terça</th>
+                    <th scope="col">SI e Sociedade</th>
+                    <th scope="col">***</th>
+                </tr>
+                <tr>
+                    <th scope="col">Quarta</th>
+                    <th scope="col">Introdução a Programação</th>
+                    <th scope="col">***</th>
+                </tr>
+                <tr>
+                    <th scope="col">Quinta</th>
+                    <th scope="col">Desenvolvimento Web</th>
+                    <th scope="col">710</th>
+                </tr>
+                <tr>
+                    <th scope="col">Sexta</th>
+                    <th scope="col">Banco de Dados</th>
+                    <th scope="col">***</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contato">
+        <h2>Fale comigo</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Seus Dados</legend>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto"> ... </select>
+                </div>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
