@@ -1,5 +1,36 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="frontend/css/estilo.css"> 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #231f20;
+    background-color: #f4efef;
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+
+    h1, h2, h3 {
+        color: #88005b;
+    }
+
+    a {
+        color: #88005b;
+        text-decoration: none;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    p { color: #4a4650; }
+
+    .destaque {
+        background-color: #f0d7e6;
+        border-left: 4px solid #88005b;
+        padding: 8px 12px;
+    }
+    }
