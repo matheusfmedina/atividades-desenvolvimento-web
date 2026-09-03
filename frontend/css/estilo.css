@@ -1,19 +1,29 @@
+:root {
+  --principal:       #88005b;  /* cabeçalho, títulos */
+  --sobre-principal: #ffffff;  /* texto EM CIMA dela */
+  --apoio:           #053e60;  /* botões, destaques  */
+  --fundo:           #f4eff2;  /* o fundo da página  */
+  --superficie:      #ffffff;  /* cartões, conteúdo  */
+  --texto:           #231f20;  /* a cor das letras   */
+  --txt:             #4a4650;  /* a cor das letras   */
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #231f20;
-    background-color: #f4efef;
+    color: var(--texto);
+    background-color: var(--fundo);
     max-width: 860px;
     margin: 0 auto;
     padding: 0 20px 40px;
 
     h1, h2, h3 {
-        color: #88005b;
+        color: var(--principal);
     }
 
     a {
-        color: #88005b;
+        color: var(--principal);
         text-decoration: none;
     }
 
@@ -29,8 +39,22 @@ body {
     p { color: #4a4650; }
 
     .destaque {
-        background-color: #f0d7e6;
-        border-left: 4px solid #88005b;
+        background-color: var(--sobre-principal);
+        border-left: 4px solid var(--principal);
+        h1, h2, h3 {
+            color: var(--principal);
+        }
         padding: 8px 12px;
+    }
+
+    .cabecalho {
+        background-color: var(--principal);
+        color: var(--sobre-principal);
+        h1, h2, h3 {
+            color: var(--sobre-principal);
+        }
+        p {
+            color: var(--sobre-principal);
+        }
     }
     }
